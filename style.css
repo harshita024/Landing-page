@@ -1,0 +1,333 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+#hero {
+    background: #f06595;
+    
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #fff;
+}
+.head1{
+    min-height: 50px;
+    background-color: #000000;
+}
+.first {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.left{
+    margin-top: 40px;
+   text-align: center;
+}
+.cta-buttons {
+    margin: 20px 0;
+}
+
+.primary-btn, .secondary-btn {
+    padding: 15px 30px;
+    margin: 5px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.primary-btn {
+    background: #fff;
+    color: #ff6b6b;
+}
+
+.secondary-btn {
+    background: #333;
+    color: #fff;
+}
+
+.primary-btn:hover {
+    background: #000000;
+}
+
+.secondary-btn:hover {
+    background: #555;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Features Section */
+#features {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ff6b6b;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.feature-item {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.6s;
+    
+}
+.feature-item :hover{
+    transform: scale(1.2);
+    background: 1px solid black;
+}
+.feature-item img {
+    max-width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Screenshots Section */
+#screenshots {
+    padding: 50px 0;
+    text-align: center;
+    background: #f06595;
+    color: #fff;
+}
+
+#screenshots h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    border: 1px solid black;
+}
+
+/* Testimonials Section */
+.customers-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+     gap: 1.5rem;
+     margin-top: 2rem;
+     margin-left: 2rem;
+     margin-right: 2rem;
+   
+    
+ }
+ .heading{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ff6b6b;
+ }
+ .customers-container .box{
+    padding: 20px;
+    box-shadow: #555;
+    border-radius: 0.5rem;
+    text-align: center;
+    border: 1px solid black;
+   
+ }
+  .stars .bx{
+    color: #e2f065;
+ }
+ .customers-container .box p{
+    font-size: 0.85rem;
+ }
+ .customers-container .box h2{
+    font-size: 1.2rem;
+
+    font-weight: 600;
+    margin: 0.5rem 0 0.5rem;
+ }
+ .customers-container .box img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ .customers-container .box:hover{
+    background-color: #ccc;
+    transition: 0.2s all linear;
+ } 
+/* Pricing Section */
+
+/* Pricing Section */
+#pricing {
+    padding: 50px 0;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+#pricing h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ff6b6b;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.pricing-plan {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.pricing-plan:hover{
+    background:#ff6b6b ;
+    border: 1px solid black;
+}
+
+.pricing-plan img {
+    max-width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f06595;
+}
+
+#contact h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 15px 30px;
+    background: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #f06595;
+}
+
+/* Lightbox Styles */
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .features-grid, .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        font-size: 1.2rem;
+    }
+}
